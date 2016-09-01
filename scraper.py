@@ -5,4 +5,6 @@ url = "http://www.indeed.com/jobs?q=security&l="
 page = urllib2.urlopen(url)
 soup = BeautifulSoup(page)
 
-print soup.prettify()
+all_tables=soup.find_all("div", class_="result")
+
+print all_tables
