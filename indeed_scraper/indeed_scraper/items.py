@@ -13,4 +13,4 @@ class IndeedScraperItem(scrapy.Item):
     description = scrappy.Filed()
     blurb = scrappy.Filed()
     location = scrappy.Filed()
-    pass
+   
